@@ -1,0 +1,31 @@
+divide<html>
+<head>
+<title>java script to print number within a range!</title>
+<script>
+function printevenNums(){
+//get the start asnd end rangefrom user
+var start =parseInt(document.get element by id ("start").value);
+var start =parseInt(document.get element by id ("end").value);
+var  evennums="<h1>evennuber:<br>":
+for(i=start;i<=end;i++){
+//let's divide the value by 2
+//if  the reminder is zero then it's an even number 
+if (i%2==0){
+evennums+=i+"<br>";
+}
+}
+document.getelementbyId("ruselt").innerHTML=evennums;
+
+}
+</script>
+</head>
+<body>
+<h3>java script to print even number  within a range!</h3>
+<h3>JavaScript to print Even Numbers within a Range!</h3>
+Start: <input type="number" min="0" id="start" value="1" />
+End: <input type="number" id="end" min="1" value="20" />
+<input type="button" onclick="printevenNums()" value="Print Even Numbers" />
+<div id="result"></div>
+</body>
+</html>
+
